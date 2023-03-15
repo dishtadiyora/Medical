@@ -1,0 +1,31 @@
+.aboutbt {
+    align-items: center;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 20px;
+    color:black;
+    align-items: center;
+    font-weight: bold;
+    border: 0px solid black;
+    height: 45px;
+    width: 120px;
+    background-color:rgb(106, 218, 203);
+}
+.aboutbt:hover{
+    background-color: gray;
+}
+@media screen and (max-width:1519px){
+   .fn{
+    padding: 100px!important;
+   }
+}
+@media screen and (max-width:1388px){
+    .fn{
+     padding: 50px!important;
+    }
+ }
+ @media screen and (max-width:px){
+    .fn{
+     padding: 50px!important;
+    }
+ }

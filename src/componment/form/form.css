@@ -1,0 +1,132 @@
+.fp {
+    font-size: 50px;
+}
+.vc {
+    line-height: 8px;
+}
+.bn {
+    flex-direction: column;
+}
+.in {
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 70px;
+    width: 450px;
+}
+@media screen and (max-width:1027px) {
+    .in {
+        height: 50px;
+        width: 250px;
+    }
+    .we {
+        gap: 2px !important;
+    }
+}
+@media screen and (max-width:1158px) {
+    .sbtn {
+        font-size: 10px !important;
+    }
+}
+@media screen and (max-width:922px) {
+    .in {
+        height: 50px;
+        width: 200px;
+    }
+   .we {
+        gap: 2px !important;
+    }
+   
+    .form-check-label {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .form-check-label {
+        font-size: 10px;
+    }
+   .row {
+        text-align: center !important;
+    }
+    .xc {
+        justify-content: center;
+    }
+    .bn {
+        justify-content: center !important;
+    }
+    .in {
+        height: 50px;
+        width:300px;
+    }
+   .ty {
+        justify-items: center !important;
+        place-items: center;
+    }
+  .tys {
+        justify-items: center !important;
+    }
+}
+@media screen and (max-width:899px) {
+    .vc {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:596px) {
+    .in {
+        width:200px;
+    }
+}
+@media screen and (max-width:488px) {
+    .in {
+        width:190px;
+    }
+}
+@media screen and (max-width:749px) {
+    .ty {
+        justify-content: center !important;
+    }
+}
+@media screen and (max-width:468px) {
+    .in {
+        height: 30px;
+        width: 160px;
+    }
+    .fp {
+        font-size: 30px !important;
+    }
+    .jj {
+        font-size: 20px !important;
+    }
+    .vc {
+        font-size: 10px !important;
+    }
+    .we {
+        width: 50px !important;
+    
+    }
+}
+@media screen and (max-width:420px) {
+    .in {
+        width: 140px;
+    }
+}
+@media screen and (max-width:377px) {
+    .in {
+        width: 120px;
+    }
+}
+@media screen and (max-width:367px) {
+    .fp {
+        font-size: 20px !important;
+    }
+   .jj {
+        font-size: 10px !important;
+    }
+    .vc {
+        font-size: 5px;
+    }
+}
+@media screen and (max-width:340px) {
+    .in {
+        width: 110px;
+    }
+}

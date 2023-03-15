@@ -1,0 +1,161 @@
+.shopbtn {
+    border-radius: 100px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    border: 0px solid blue;
+    height: 45px;
+    width: 120px;
+    background-color: rgb(51, 51, 237);
+}
+.shopbtn:hover {
+    color: white;
+    background-color:rgb(61, 92, 163)!important;
+}
+.aboutbtn:hover {
+    color: white; 
+
+    background-color:rgb(61, 92, 163)!important;
+}
+.aboutbtn {
+    border-radius: 100px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border:0px solid blue;
+    align-items: center;
+    font-weight: bold;
+    height: 45px;
+    width: 120px;
+    background-color: rgb(51, 51, 237);
+}
+.home {
+    padding-top: 2%;
+}
+.maindata {
+    background-image: url("../../../public/asset/df.jpg");
+    background-position: right!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    position: relative;
+    border-radius: 10px;
+}
+.maincontent {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-80%);
+}
+.maincontent h4 {
+    color: darkblue;
+    padding-top: 5px;
+}
+.maincontent h1 {
+    color: darkblue;
+    font-weight: bold;
+    line-height: 70px;
+}
+.maincontent p {
+    color: darkblue;
+    font-size: 17px;
+}
+@media screen and (max-width:767px) {
+    .maincontent {
+        top: 5%;
+    }
+    .maincontent h1 {
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:355px) {
+    .maincontent {
+        top: 2%;
+    }
+    .maincontent h1 {
+        line-height: 20px !important;
+    }
+}
+@media screen and (max-width:300px) {
+    .asd {
+        display: none !important;
+    }
+}
+@media screen and (max-width:505px) {
+    .maincontent h4 {
+        font-size: 20px !important;
+    }
+    .maincontent h1 {
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width:993px) {
+    .secondnav {
+        display: none !important;
+    }
+}
+.botalfress {
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+}
+.botalfresss {
+    background-color: rgb(136, 187, 207);
+    border-radius: 20px;
+
+}
+.secondbotalss {
+    padding-left: 50px;
+    padding-top: 60px;
+}
+@media screen and (max-width:1400px) {
+    .botalfresss {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .botalfress {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .secondbotalss {
+        padding-top: 60px;
+        justify-content: center !important;
+    }
+    .secondbotalss {
+        justify-content: center !important;
+    }
+    .asd {
+        justify-content: center !important;
+    }
+}
+@media screen and (max-width:749px) {
+  .divimg{
+    gap: 12px;
+  }
+}
+@media screen and (max-width:767px) {
+    .botalfresss {
+        flex-direction: column;
+        justify-content: center !important;
+        
+    }
+    .botalfress {
+        flex-direction: column;
+        justify-content: center !important;
+    
+    }
+    .asd {
+        justify-content: center !important;
+    }
+}
+.buttn {
+    display: inline-flex;
+    flex-direction: column;
+}
+.secondnav {
+    text-decoration: none !important;
+    display: flex;
+    justify-content: space-between;
+}

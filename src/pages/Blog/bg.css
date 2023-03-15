@@ -1,0 +1,30 @@
+.er {
+  border-radius: 40px;
+}
+.h {
+  text-align: center;
+}
+.iconleft {
+  float: right;
+}
+.aboutbtns {
+  float: right;
+  border-radius: 100px;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  align-items: center;
+  font-weight: bold;
+  border: 0px solid orangered;
+  height: 45px;
+  width: 120px;
+  background-color: skyblue;
+}
+@media screen and (max-width:700px) {
+  .bgc {
+    padding: 0px !important;
+  }
+  .xyz {
+    justify-content: center;
+  }
+}

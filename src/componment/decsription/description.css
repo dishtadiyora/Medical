@@ -1,0 +1,12 @@
+
+.fa-solid:hover{
+    background-color: red!important;
+}
+.tabels{
+    border-radius: 20px!important;
+}
+@media screen and (max-width:435px) {
+   td{
+    font-size: 5px!important;
+   }
+}

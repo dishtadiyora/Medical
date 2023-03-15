@@ -1,0 +1,327 @@
+.botalfr {
+    background-color: rgb(226, 213, 248);
+    border-radius: 30px;
+    height: 350px !important;
+}
+.firstbotal {
+    padding-top: 80px;
+    padding-left: 50px;
+    font-weight: bold;
+    line-height: 40px !important;
+}
+.firstbotal h4 {
+    font-size: 25px;
+    font-weight: 800;
+}
+.firstbotal h5 {
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.botalsr {
+    background-color: rgb(200, 246, 252);
+    border-radius: 30px;
+    height: 350px !important;
+}
+.sbtn {
+    color: white;
+    background-color: rgb(115, 200, 233);
+    border: none;
+    border-radius: 100px;
+    align-items: center;
+    height: 45px;
+    width: 120px;
+}
+.sbtn:hover{
+    color: white;
+    background-color: black;
+}
+.secondbotal{
+    margin-top: -80px!important;
+}
+@media screen and (max-width:1248px){
+    .ing{
+        height: 350px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:1200px){
+    .firstbotal {
+        padding-top: 60px;
+        padding-left: 30px;
+        line-height: 20px !important;
+    }
+     .firstbotal h4 {
+        font-size: 20px;
+    }
+    .firstbotal h5 {
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .botalfr {
+        height:300px !important;
+    }
+    .botalsr {
+        height:300px !important;
+    }
+    .ing{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:995px) {
+    .dava{
+        display: flex;
+        flex-direction: column!important;
+    }
+    .botalfr{
+        width:900px!important;
+        height: 350px!important;
+    }
+    .botalsr{
+        width:900px!important;
+        height: 350px!important;
+    }
+    .firstbotal h4 {
+        font-size: 40px;
+    }
+    .firstbotal h5 {
+        font-size: 40px;
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+    .secondbotal{
+        padding-left: 90px!important;
+
+    }
+}
+@media screen and (max-width:982px) {
+   
+    .botalfr{
+        width:800px!important;
+        height: 350px!important;
+    }
+    .botalsr{
+        width:800px!important;
+        height: 350px!important;
+    }
+    .firstbotal h4 {
+        font-size: 40px;
+    }
+    .firstbotal h5 {
+        font-size: 40px;
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+    .secondbotal{
+        padding-left: 70px!important;
+
+    }
+}
+@media screen and (max-width:897px) {
+    .botalfr{
+        width:700px!important;
+        height: 350px!important;
+    }
+    .botalsr{
+        width:700px!important;
+        height: 350px!important;
+    }
+    .firstbotal h4 {
+        font-size: 40px;
+    }
+    .firstbotal h5 {
+        font-size: 40px;
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+    .secondbotal{
+        padding-left: 70px!important;
+
+    }
+}
+@media screen and (max-width:767px){
+    .firstbotal {
+        padding-top: 60px;
+        padding-left: 30px;
+        line-height: 20px !important;
+    }
+     .firstbotal h4 {
+        font-size: 30px;
+    }
+    .firstbotal h5 {
+        font-size: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .botalfr {
+        height:350px !important;
+        width:530px!important;
+    }
+    .botalsr {
+        height:350px !important;
+        width:530px!important;
+    }
+    .secondbotal{
+        margin-top: 0px!important;
+       margin: 0px!important;
+       padding-left: 0px!important;
+    }
+    .ing{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:616px){
+    .botalfr {
+       
+        width:470px!important;
+    }
+    .botalsr {
+    
+        width:470px!important;
+    } 
+}
+@media screen and (max-width:631px){
+    .botalfr {
+          width:470px!important;
+    }
+    .botalsr {
+        
+        width:470px!important;
+    } 
+}
+@media screen and (max-width:580px){
+    .botalfr {
+        
+        width:410px!important;
+    }
+    .botalsr {
+      
+        width:410px!important;
+    } 
+    .ing{
+        height: 200px!important;
+        width: 200px!important;
+    }
+}
+@media screen and (max-width:507px){  
+    .ing{
+        width: 130px!important;
+        height: 130px!important;
+    }
+}
+@media screen and (max-width:498px){
+    .ing{
+        height: 200px;
+        width: 180px;
+    }
+    .firstbotal h4 {
+        font-size: 20px!important;
+    }
+    .firstbotal h5 {
+        font-size: 20px!important; 
+    }
+}
+@media screen and (max-width:468px){
+    .botalfr {
+      
+        width:420px!important;
+    }
+    .botalsr {
+         width:420px!important;
+    }
+    .ing{
+        height: 200px;
+        width: 200px;
+    }  
+}
+@media screen and (max-width:480px){
+    .botalfr {
+        width:350px!important;
+    }
+    .botalsr {
+        width:350px!important;
+    }
+}
+@media screen and (max-width:442px){
+    .botalfr {
+  width:340px!important;
+    }
+    .botalsr {
+        width:340px!important;
+    }     
+}
+@media screen and (max-width:420px){
+    .botalfr {
+      
+        width:290px!important;
+    }
+    .botalsr {
+    
+        width:290px!important;
+    }
+    .ing{
+        height: 200px;
+        width: 170px;
+    }
+}
+@media screen and (max-width:396px){
+    .botalfr {
+        height:320px !important;
+        width:300px!important;
+    }
+    .botalsr {
+        height:320px !important;
+        width:300px!important;
+    }
+    .ing{
+        height: 200px;
+        width: 180px;
+    }  
+}
+@media screen and (max-width:385px){
+    .botalfr {
+        height:450px !important;
+        width:270px!important;
+        flex-direction: column;
+    }
+    .botalsr {
+        height:450px !important;
+        width:270px!important;
+        flex-direction: column;
+    } 
+}
+@media screen and (max-width:362px){
+    .botalfr {
+        height:500px !important;
+        width:250px!important;
+    }
+    .botalsr {
+        height:500px !important;
+        width:250px!important;
+    } 
+}
+@media screen and (max-width:343px){
+    .botalfr {
+        height:500px !important;
+        width:210px!important;
+        }
+    .botalsr {
+        height:500px !important;
+        width:210px!important;
+    }     
+}
+@media screen and (max-width:318px){
+    .botalfr {
+        height:500px !important;
+        width:190px!important;
+    }
+    .botalsr {
+        height:500px !important;
+        width:190px!important;
+    }     
+}

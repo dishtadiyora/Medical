@@ -1,0 +1,42 @@
+.qwe {
+    height: 170px;
+    width: 250px;
+    border-radius: 20px;
+}
+.secondblog {
+    background-color: rgb(233, 230, 230);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+}
+.pimg {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+@media screen and (max-width:1210px) {
+    .blogfirst {
+        flex-direction: column !important;
+    }
+}
+@media screen and (max-width:692px) {
+    .ma {
+        flex-direction: column !important;
+    }
+}
+@media screen and (max-width:656px) {
+    h7 {
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width:362px) {
+    .sa {
+        flex-direction: column !important;
+    }
+}
+@media screen and (max-width:770px) {
+    .ma {
+        gap: 20px !important;
+    }
+}

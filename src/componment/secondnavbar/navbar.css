@@ -1,0 +1,24 @@
+@media screen and (max-width:992px) {
+    .a {
+        display: flex;
+        flex-direction: column;
+    }
+    .b {
+        display: flex;
+        flex-direction: column;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .pf {
+        font-size: 15px;
+    }
+}
+.feacture-box1 {
+    border-right: 1px solid black;
+}
+@media screen and (max-width:1126px) {
+    .feacture-box1 {
+        border: none !important;
+    }
+}

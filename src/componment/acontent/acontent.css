@@ -1,0 +1,79 @@
+.imd {
+    border-radius: 20px;
+    width: 650px;
+}
+.h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 50px;
+}
+.hr {
+    width: 200px;
+    color: skyblue;
+    height: 1px;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+}
+.aconleft {
+    border-left: 2px solid skyblue;
+}
+@media screen and (max-width:1375px) {
+    .aa {
+        padding-top: 0px !important;
+    }
+}
+@media screen and (max-width:1018px) {
+    .h2 {
+        font-size: 20px !important;
+    }
+
+    .p {
+        font-size: 13px !important;
+    }
+}
+@media screen and (max-width:1200px) {
+    .h2 {
+        font-size: 30px !important;
+        line-height: 30px;
+    }
+    .p {
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width:1107px) {
+    .p {
+        padding-top: 10px !important;
+    }
+}
+@media screen and (max-width:992px) {
+    .h2 {
+        font-size: 20px;
+        line-height: 20px !important;
+    }
+    .p {
+        font-size: 13px !important;
+        padding-top: 8px !important;
+    }
+    h5 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:991px) {
+    .h2 {
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+    .vc {
+        padding-top: 0px !important;
+    }
+}
+@media screen and (max-width:859px) {
+    .p {
+        padding-top: 0px !important;
+    }
+}
+@media screen and (max-width:756px) {
+    .vc {
+        justify-content: center !important;
+    }
+}

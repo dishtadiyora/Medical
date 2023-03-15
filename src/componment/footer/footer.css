@@ -1,0 +1,61 @@
+h4 {
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: balck;
+}
+h6 {
+    font-size: 16px;
+}
+.footer_last {
+    display: flex;
+
+}
+.starter {
+    justify-content: flex-start;
+}
+.laster {
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:1210px) {
+    h6 {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:995px) {
+    h6 {
+        font-size: 10px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:767px) {
+    h6 {
+        font-size: 16px;
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+    }
+}
+.facebook:hover{
+     color: rgb(35, 35, 125)!important;
+     transform: scale(1.2);
+     cursor: pointer;
+}
+.instragram:hover{
+    color: rgb(35, 35, 125)!important;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.twitter:hover{
+    color: rgb(35, 35, 125)!important;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.link:hover{
+    color: rgb(35, 35, 125)!important;
+    transform: scale(1.2);
+    cursor: pointer;
+}

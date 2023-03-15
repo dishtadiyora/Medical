@@ -1,0 +1,104 @@
+.blog {
+  background-image:linear-gradient(rgba(250, 246, 246, 0.5),rgba(250, 249, 249, 0.5)), url(../../../public/asset/gril.webp);
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.blogesss {
+  top: 100px;
+  left: 200px;
+}
+.blogesss h3 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: black;
+  text-align: center;
+}
+.blogesss h1 {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  color: black;
+  text-align: center;
+  padding-top: 80px;
+}
+.btns {
+  border-radius: 100px;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  align-items: center;
+  font-weight: bold;
+  border: 0px solid skyblue;
+  height: 45px;
+  width: 200px;
+  background-color: skyblue;
+}
+.btns:hover {
+  color: white;
+  background-color: black !important;
+}
+.category {
+  line-height: 30px;
+}
+.slidecontainer {
+  width: 100%;
+}
+.form-check-input:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+label:hover {
+  color: blue;
+}
+.slider {
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider:hover {
+  opacity: 1;
+}
+.slidecontainer {
+  width: 100%;
+}
+.slider {
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider:hover {
+  opacity: 1;
+}
+@media screen and (max-width:487px) {
+  .btns{
+    width: 150px!important;
+    font-size: 12px!important;
+  }
+  .topnav h1{
+    font-size: 15px!important;
+  }
+}
+@media screen and (max-width:338px) {
+  .topnav h1{
+    font-size: 20px!important;
+  }
+  .btns{
+    display: none!important;
+  }
+}
